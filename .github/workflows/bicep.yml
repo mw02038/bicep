@@ -29,5 +29,5 @@ jobs:
       with:
         subscriptionId: ${{ secrets.AZURE_SUB_ID }}
         resourceGroupName: DefaultResourceGroup-EUS
-        template: ./storageaccount.bicep
-        parameters: ./storageaccount-dev.parameters.json
+        template: storageaccount.bicep
+        parameters: storageaccount-dev.parameters.json
