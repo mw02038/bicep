@@ -28,6 +28,6 @@ jobs:
       uses: azure/arm-deploy@v1
       with:
         subscriptionId: ${{ secrets.AZURE_SUB_ID }}
-        resourceGroupName: RG_PolicyTest
+        resourceGroupName: DefaultResourceGroup-EUS
         template: ./Part06IaC/storageaccount.bicep
         parameters: ./Part06IaC/storageaccount-dev.parameters.json
